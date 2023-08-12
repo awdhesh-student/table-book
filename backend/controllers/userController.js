@@ -3,7 +3,7 @@ const jwt = require("jsonwebtoken");
 const userSchema = require("../schemas/userModel");
 const tableSchema = require("../schemas/tableModel");
 const bookingSchema = require("../schemas/bookingModel");
-const { get } = require("mongoose");
+
 
 ///////for registeration
 const registerController = async (req, res) => {
